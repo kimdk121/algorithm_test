@@ -2,6 +2,7 @@ package org.example.baekjoon;
 
 import java.util.Scanner;
 
+// 배열 평균 구하기
 public class N1546 {
 
     public static void main(String args[]) {

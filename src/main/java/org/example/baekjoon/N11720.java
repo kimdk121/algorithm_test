@@ -2,6 +2,7 @@ package org.example.baekjoon;
 
 import java.util.*;
 
+// 배열 숫자의 합 구하기
 public class N11720 {
 
     public static void main(String[] args) {
