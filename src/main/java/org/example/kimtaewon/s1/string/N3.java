@@ -2,6 +2,7 @@ package org.example.kimtaewon.s1.string;
 
 import java.util.Scanner;
 
+// 문장 속 단어
 public class N3 {
 
     public static String solution(String str) {
