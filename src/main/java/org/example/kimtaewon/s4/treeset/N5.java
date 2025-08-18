@@ -1,4 +1,4 @@
-package org.example.kimtaewon.s4.hashmap;
+package org.example.kimtaewon.s4.treeset;
 
 import java.util.Collections;
 import java.util.Scanner;

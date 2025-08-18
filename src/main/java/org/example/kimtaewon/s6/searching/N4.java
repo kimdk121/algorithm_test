@@ -1,4 +1,4 @@
-package org.example.kimtaewon.s6.sorting;
+package org.example.kimtaewon.s6.searching;
 
 import java.util.Scanner;
 

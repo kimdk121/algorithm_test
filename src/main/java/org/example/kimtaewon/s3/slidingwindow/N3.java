@@ -1,26 +1,21 @@
-package org.example.kimtaewon.s6.sorting;
+package org.example.kimtaewon.s3.slidingwindow;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
-// 이분검색
-public class N8 {
+// 최대 매출
+public class N3 {
 
     public static int solution(int n, int m, int[] nArr) {
         int answer = 0;
-        Arrays.sort(nArr);
-        int lt = 0;
-        int rt = n-1;
-        while (lt <= rt) {
-            int mid = (lt + rt) /2;
-            if (nArr[mid] == m) {
-                answer = mid + 1;
-                break;
-            } else if (nArr[mid] > m) {
-                rt = mid - 1;
-            } else {
-                lt = mid + 1;
-            }
+        int sum = 0;
+        for (int i = 0; i < m; i++) {
+            sum += nArr[i];
+        }
+        answer = sum;
+        for (int i = m; i < n; i++) {
+            sum += nArr[i];
+            sum -= nArr[i-m];
+            answer = Math.max(answer, sum);
         }
         return answer;
     }

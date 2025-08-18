@@ -1,4 +1,4 @@
-package org.example.kimtaewon.s3.twopointers;
+package org.example.kimtaewon.s3.slidingwindow;
 
 import java.util.Scanner;
 

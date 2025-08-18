@@ -1,4 +1,4 @@
-package org.example.kimtaewon.s5.stack;
+package org.example.kimtaewon.s5.queue;
 
 import java.util.LinkedList;
 import java.util.Queue;
