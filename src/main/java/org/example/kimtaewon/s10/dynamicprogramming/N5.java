@@ -3,7 +3,7 @@ package org.example.kimtaewon.s10.dynamicprogramming;
 import java.util.Arrays;
 import java.util.Scanner;
 
-// 동전교환
+// 동전교환 (냅색 알고리즘)
 public class N5 {
 
     public static int solution(int n, int m, int[] coins, int[] dy) {
